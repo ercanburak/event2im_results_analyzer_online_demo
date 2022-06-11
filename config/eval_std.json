@@ -1,0 +1,25 @@
+{
+    "name": "std_eval",
+    "dataset_kwargs": {
+        "transforms": {},
+        "num_bins": 5,
+        "combined_voxel_channels": true,
+        "voxel_method": {
+            "method": "between_frames"
+        },
+        "filter_hot_events": false,
+        "keep_ratio": 1.0,
+        "voxel_ts_method": "last",
+        "use_first_frame": true,
+        "reverse": false
+    },
+    "color": false,
+    "post_process_norm": "none",
+    "histeq": "none",
+    "histmatch": false,
+    "eval_infer_all": true,
+    "ts_norm": "norm_std",
+    "ts_tol_ms": 1.0,
+    "create_gif": true,
+    "wandb": true
+}
