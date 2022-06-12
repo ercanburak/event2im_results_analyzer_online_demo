@@ -1,11 +1,3 @@
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-install("streamlit-player")
-
 import streamlit as st
 from streamlit_player import st_player
 from utils import get_eval_config_names, get_dataset_config_names, get_sequence_names
