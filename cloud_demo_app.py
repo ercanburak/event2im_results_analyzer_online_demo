@@ -21,7 +21,7 @@ datasets = list(dataset_sequences_dict.keys())
 #     options=eval_configs
 # )
 
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(3)
 
 # A selectbox on the sidebar, for selecting dataset:
 with col1:
