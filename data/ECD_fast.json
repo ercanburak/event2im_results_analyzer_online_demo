@@ -1,0 +1,24 @@
+{
+    "name": "ECD",
+    "root_path": "data/test/ECD",
+    "loader_type": "MMP",
+    "sequences": 
+    {
+        "boxes_6dof":
+        {
+            "start_time_s": 20.0
+        },
+        "dynamic_6dof":
+        {
+            "start_time_s": 20.0
+        },
+        "poster_6dof":
+        {
+            "start_time_s": 20.0
+        },
+        "shapes_6dof":
+        {
+            "start_time_s": 20.0
+        }
+    }
+}

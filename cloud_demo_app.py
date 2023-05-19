@@ -9,8 +9,8 @@ root_path = "."
 datasets = get_dataset_config_names(root_path)
 dataset_sequences_dict = {}
 for dataset in datasets:
-    dataset_sequences_dict[dataset] = get_sequence_names(root_path, dataset)
-datasets = list(dataset_sequences_dict.keys())
+    dataset_sequences_dict[dataset] = sorted(get_sequence_names(root_path, dataset))
+datasets = sorted(list(dataset_sequences_dict.keys()))
 
 # st.sidebar.title("Event2Im Results Analyzer - Online Demo")
 
